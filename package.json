@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
-    "start": "webpack-serve --config example/webpack.config.js",
+    "start": "webpack-serve --config example/webpack.config.js --port 8101",
     "build": "tsc",
     "prepublish": "yarn build"
   },
